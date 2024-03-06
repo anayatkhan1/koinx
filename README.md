@@ -1,48 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with
-[`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# KoinX Frontend Intern Assignment
 
-## Getting Started
+This project is a solution to the frontend intern assignment provided by KoinX. It is built using Next.js, Tailwind CSS, TypeScript, and Shadcn UI library.
 
-First, run the development server:
+## Task Completed
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Implement all components as given in the Figma design.
+- Fetch the price of Bitcoin in USD and INR using Coingecko’s `/simple/price` API.
+- Use TradingView’s charts of BTCUSD.
+- Fetch the list of top 3 trending coins using Coingecko’s `/search/trending` API.
+- Display "You May Also Like" section with relevant data fetched from the trending coins API.
+- Ensure UI responsiveness according to the Figma design.
+- Host code on GitHub and deploy using tools like Netlify or Vercel.
+- Write the test scripts for unit testing and end-to-end testing.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the
-result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page
-auto-updates as you edit the file.
+- ⚡ **Next.js 14+**: Take advantage of the latest features and optimizations of the Next.js framework.
+- 🔍 **TypeScript**: Develop with strong typing and improved code quality.
+- 🚀 **ESLint and Prettier**: Ensure consistent code style and catch errors early.
+- 🐶 **Husky and Lint-Staged**: Enforce code quality with pre-commit hooks.
+- 💡 **Shadow and Background Snippets**: Accelerate development with helpful shadow and background snippets.
+- 🖼️ **Shadcn UI Library**: Integrate Shadcn UI library for building beautiful user interfaces effortlessly.
+- 🃏 **Jest and Testing Library**: Write and run tests with ease to ensure robustness.
+- 🎭 **Playwright**: Automate browser testing for comprehensive coverage.
+- 📊 **Vercel Analytics and Vercel SpeedInsight**: Monitor and optimize performance for better user experiences.
 
-This project uses
-[`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to
-automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js
-    features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out
-[the Next.js GitHub repository](https://github.com/vercel/next.js/) - your
-feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the
-[Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
-from the creators of Next.js.
-
-Check out our
-[Next.js deployment documentation](https://nextjs.org/docs/deployment) for more
-details.
