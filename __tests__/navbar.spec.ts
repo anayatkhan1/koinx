@@ -1,7 +1,6 @@
-// import Navbar from "@/components/navbar";
-// import { Chart } from "@/components/index";
-// import {render, screen} from '@testing-library/react'
-
-// describe("", ()=> {
-//    render(<Navbar />)
-// })
+import Navbar from "@/components/navbar";
+describe("Navbar", () => {
+    test("Navbar Component should be exist", () => {
+        expect(Navbar).toBeTruthy();
+    });
+});
