@@ -1,6 +1,4 @@
-# KoinX Frontend Intern Assignment
-
-This project is a solution to the frontend intern assignment provided by KoinX. It is built using Next.js, Tailwind CSS, TypeScript, and Shadcn UI library.
+# KoinX
 
 ## Task Completed
 
